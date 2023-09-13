@@ -1,0 +1,305 @@
+/*------------------------------------------------------ HOME PAGE ------------------------------------------------------*/
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ab8b65;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.logo {
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ab8b65;
+    padding-left: 30px;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0px 28px 0px 20px;
+}
+
+.img {
+    width: 100%;
+    height: 700px;
+    background-image: url("photos/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 700px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.txt-wrap {
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 450px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.txt h4 {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    animation: slider 1s ease;
+    height: 30px;
+    color: #ab8b65;
+}
+
+.txt h2 {
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: slider 1.6s ease;
+}
+
+.txt p {
+    font-size: 18px;
+    animation: slider 2s ease;
+}
+
+.txt button {
+    animation: slider 2.5s ease;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .txt-wrap {
+        width: 90%;
+        height: 300px;
+    }
+
+    .txt h2 {
+        font-size: 40px;
+    }
+}
+
+.btn {
+    background-color: transparent;
+    color: #ab8b65;
+    border: #ab8b65 2px solid;
+}
+
+.btn:hover {
+    background-color: #ab8b65;
+    color: #fff;
+    border: none;
+}
+
+.card-text1 {
+    color: #212529;
+    line-height: 22px;
+    padding-top: 10px;
+}
+.franchise{
+    background-image: url("photos/coffee1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rapper{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 400px;
+    width: 50%;
+    border-radius:0px 50px 50px 0px; 
+    text-align: center;
+}
+.rapper h1{
+    padding-top: 70px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.rapper p{
+    color: rgba(255, 255, 255, 0.7)
+}
+.rapper h6{
+    color:#ab8b65;
+    font-size: 22px;
+}
+.card-text2 {
+    color: #212529;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+/*------------------------------------------------------ ABOUT US ------------------------------------------------------*/
+.head h2 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+hr {
+    background-color: #ab8b65;
+    height: 3px;
+    width: 10%;
+}
+
+.p1 p,
+.p2 p {
+    line-height: 24px;
+    color: #7e7e7e;
+}
+
+.p2 h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #212529;
+    margin: 0px 0px 20px 0px;
+}
+
+#fp a {
+    margin: 0px 15px 0px 15px;
+}
+
+/*------------------------------------------------------ MENU ------------------------------------------------------*/
+
+.menu {
+    background-image: url("photos/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+#text {
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.heading h1 {
+    font-family: 'Italianno', cursive;
+}
+
+.heading p {
+    font-size: 38px;
+}
+
+.wraper {
+    background-color: #f4f4f4;
+}
+
+/*------------------------------------------------------ FRANCHISE ------------------------------------------------------*/
+
+.fr-head h2,
+.fr-par h2 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+.fr-par h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #212529;
+    margin: 0px 0px 20px;
+}
+
+.fr-par p {
+    p {
+        line-height: 24px;
+        color: #7e7e7e;
+    }
+}
+
+.row {
+    color: #777777;
+}
+
+.dropdown-icon {
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/*------------------------------------------------------ contact us ------------------------------------------------------*/
+.contact {
+    background-color: #f4f4f4;
+}
+
+.hd {
+    text-align: center;
+}
+
+.hd h2 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-top: 65px;
+}
+
+.hd p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.hd #hr1 {
+    margin: 10px auto;
+    height: 4px;
+    width: 12%;
+    background-color: #ab8b65;
+}
